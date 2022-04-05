@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Card
+comment0.text=Implementation\ of\ a\ card\ type
+comment1.params=aSuit\ aNumber
+comment1.target=Card(Suit,\ int)
+comment1.text=\ Card\ constructor\r\n\ aSuit\ is\ the\ suit\ of\ the\ card\r\n\ aNumber\ is\ the\ number\ of\ the\ card\t\r\n
+comment2.params=
+comment2.target=int\ getNumber()
+comment2.text=Returns\ the\ number\ og\ the\ card
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=toString\ returns\ number\ and\ the\ suit\ of\ the\ card
+numComments=4

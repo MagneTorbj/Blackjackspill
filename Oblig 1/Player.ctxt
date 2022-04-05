@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=implementering\ av\ spilleren
+comment1.params=aName
+comment1.target=Player(java.lang.String)
+comment1.text=\ \r\n\ navnet\ p\u00E5\ spilleren\r\n
+comment2.params=
+comment2.target=void\ emptyHand()
+comment2.text=\ resetter\ spillerens\ hand\ til\ \u00E5\ inneholde\ 0\ kort\r\n
+comment3.params=aCard
+comment3.target=boolean\ addCard(Card)
+comment3.text=\r\n\ legger\ ett\ kort\ til\ i\ spillerens\ hand\r\n\ aCard\r\n
+comment4.params=
+comment4.target=int\ getHandSum()
+comment4.text=\ summen\ av\ kort\ i\ spillerens\ hand\r\n\ implementerer\ reglene\ i\ blackjack\r\n\ \r\n
+comment5.params=showFirstCard
+comment5.target=void\ printHand(boolean)
+comment5.text=\ printer\ kortene\ i\ spillerens\ h\u00E5nd\r\n\ \r\n\ showFirstCard\ selv\ om\ f\u00F8rste\ kort\ er\ skjult\r\n\ \r\n
+numComments=6

@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Deck
+comment0.text=An\ implementation\ of\ a\ deck\ of\ cards
+comment1.params=
+comment1.target=Deck()
+comment2.params=numDecks\ shuffle
+comment2.target=Deck(int,\ boolean)
+comment2.text=\ constructor\ that\ defines\ the\ number\ of\ decks\ (each\ has\ 52\ cards)\r\n\ and\ also\ wether\ the\ deck\ should\ be\ shuffled\r\n\ numDeck\ --\ the\ number\ of\ individual\ decks\ in\ this\ deck\r\n\ shuffle\ --\ wether\ to\ shuffle\ the\ cards\t\r\n
+comment3.params=
+comment3.target=void\ shuffle()
+comment3.text=shuffle\ deck\ by\ randomly\ swapping\ pairs\ of\ cards
+comment4.params=
+comment4.target=Card\ dealNextCard()
+comment4.text=\ deal\ the\ next\ card\ from\ the\ top\ of\ the\ deck\ \r\n\ return\ the\ dealt\ card\r\n
+comment5.params=numToPrint
+comment5.target=void\ printDeck(int)
+comment5.text=\ print\ the\ top\ cards\ in\ the\ deck\ \r\n\ \r\n\ numToPrint\ the\ number\ of\ cards\ from\ the\ top\ of\ the\ deck\ to\ print\r\n
+numComments=6

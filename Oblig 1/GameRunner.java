@@ -1,7 +1,7 @@
 /*
- * Made by Magne Torbjørnrød
- * student nr 111096
- * email, magnegt@gmail.com/ usn@111096.no
+ * Made by Magne 
+ * student 
+ * 
  * last updated 29.10.20
  */
 import java.util.Scanner;
@@ -31,7 +31,7 @@ public class GameRunner {
 		dealer.printHand(false); // false fordu vi ikke skal se dealers kort
 		System.out.println("\n");
 		
-		// flagger når spillere er ferdig med å hitte
+		// flagger nÃ¥r spillere er ferdig med Ã¥ hitte
 		boolean meDone = false;
 		boolean dealerDone = false;
 		String ans;

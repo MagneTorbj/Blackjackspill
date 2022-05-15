@@ -1,7 +1,6 @@
 /*
- * Made by Magne Torbjørnrød
- * student nr 111096
- * email, magnegt@gmail.com/ usn@111096.no
+ * Made by Magne 
+ * 
  * last updated 29.10.20
  */
 /* implementering av spilleren */
@@ -14,7 +13,7 @@ public class Player {
 	private String name;
 	/*
 	 * kortene i spillerens hand
-	 *  maks mengde på 10 kort 
+	 *  maks mengde pÃ¥ 10 kort 
 	 */
 	private Card[] hand = new Card[10]; 
 	/*
@@ -23,7 +22,7 @@ public class Player {
 	private int numCards;
 
 	/* 
-	 * navnet på spilleren
+	 * navnet pÃ¥ spilleren
 	 */
 	public Player(String aName) {
 		
@@ -32,7 +31,7 @@ public class Player {
 		// Spilleren har en tom hand
 		this.emptyHand();	
 	}
-	/* resetter spillerens hand til å inneholde 0 kort
+	/* resetter spillerens hand til Ã¥ inneholde 0 kort
 	 */
 	public void emptyHand() {
 
@@ -74,10 +73,10 @@ public class Player {
 		int cardNum;
 		int numAces = 0;
 		
-		// kalkulerer hvert korts bidrag til hånden
+		// kalkulerer hvert korts bidrag til hÃ¥nden
 		for (int c= 0; c < this.numCards; c++) {
 			
-			// Får nummeret til gjeldende kort
+			// FÃ¥r nummeret til gjeldende kort
 			cardNum = this.hand[c].getNumber();
 			
 			if (cardNum == 1) { // Ace
@@ -90,7 +89,7 @@ public class Player {
 				handSum += cardNum;
 			}
 		}
-		// hvis we har Ace og summen vår er over 21.
+		// hvis we har Ace og summen vÃ¥r er over 21.
 		// setter verdi 1 istede
 		while (handSum > 21 && numAces > 0) {
 			handSum -= 10;
@@ -100,9 +99,9 @@ public class Player {
 		return handSum;		
 	}	
 	
-	/* printer kortene i spillerens hånd
+	/* printer kortene i spillerens hÃ¥nd
 	 * 
-	 * showFirstCard selv om første kort er skjult
+	 * showFirstCard selv om fÃ¸rste kort er skjult
 	 * 
 	 */
 	public void printHand(boolean showFirstCard) {

@@ -1,7 +1,6 @@
 /*
- * Made by Magne Torbjørnrød
- * student nr 111096
- * email, magnegt@gmail.com/ usn@111096.no
+ * Made by Magne
+ *
  * last updated 29.10.20
  */
 import java.util.Random;
@@ -9,14 +8,14 @@ import java.util.Random;
 
 public class Deck {
 
-/* Array av kort i bunken, hvor top kortet er i første index */
+/* Array av kort i bunken, hvor top kortet er i fÃ¸rste index */
 	private Card[] myCards;
 /* Antall kort som er i bunken */
 	private int numCards;
 	
 	public Deck() {
 		
-		// definerer en bunke uten å stokke den
+		// definerer en bunke uten Ã¥ stokke den
 		this(1, false);
 	}
 /* constructor that defines the number of decks (each has 52 cards)
@@ -51,13 +50,13 @@ public class Deck {
    }
   }
 		
-		// stokker kortene hvis nødvendig
+		// stokker kortene hvis nÃ¸dvendig
 		if (shuffle) {
 			this.shuffle();
 		}
 	}
  
-/* stokker kortene ved å tilfeldig bytte par med kort */
+/* stokker kortene ved Ã¥ tilfeldig bytte par med kort */
     public void shuffle() {
     	
     	// initialiserer tilfeldig nummer generator 
@@ -72,7 +71,7 @@ public class Deck {
     		// tilfeldig kort j bytter i`s verdi
     		j = rng.nextInt(this.numCards);
     		
-    		// gjør bytting
+    		// gjÃ¸r bytting
     		temp = this.myCards[i];
     		this.myCards[i] = this.myCards[j];
     		this.myCards[j] = temp;
@@ -86,7 +85,7 @@ public class Deck {
      */
     public Card dealNextCard() {
     	
-    	// får top kortet
+    	// fÃ¥r top kortet
     	Card top = this.myCards[0];
     	
     	// shift the rest of the cards to the left by one index

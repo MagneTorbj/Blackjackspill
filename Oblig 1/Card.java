@@ -1,7 +1,6 @@
 /*
- * Made by Magne Torbjørnrød
- * student nr 111096
- * email, magnegt@gmail.com/ usn@111096.no
+ * Made by Magne
+ * 
  * last updated 29.10.20
  */
 /* Implementation of a card type */
